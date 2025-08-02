@@ -17,3 +17,6 @@ __pycache__/
 # Environment files
 .env.local
 .env.prod
+
+# Files after installing
+*.egg-info
