@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: llm_bangla_evaluator
+Version: 0.1.0
+Summary: Bangla LLM Evaluation Framework
+Home-page: https://github.com/smnhasan/bangla-llm-evaluator
+Author: S M Nahid Hasan
+Author-email: Your Name <you@example.com>
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Dynamic: author
+Dynamic: home-page
