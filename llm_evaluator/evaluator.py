@@ -1,5 +1,5 @@
-from typing import Dict, List
-from .metrics import Metrics
+from typing import Dict
+from .metrics.metrics import Metrics
 from .scoring import Scorer
 from .models.bangla_nlp import BanglaNLP
 from .guardrails import Guardrails

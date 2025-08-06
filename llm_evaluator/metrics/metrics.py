@@ -1,7 +1,7 @@
 from typing import Dict
 import logging
-from .config import Config
-from .models.bangla_nlp import BanglaNLP
+from llm_evaluator.config import Config
+from llm_evaluator.models.bangla_nlp import BanglaNLP
 
 logging.basicConfig(level=Config.LOG_LEVEL)
 
