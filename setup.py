@@ -7,7 +7,6 @@ setup(
     install_requires=[
         "pandas>=2.0.0",
         "numpy>=1.24.0",
-        "llama-cpp-python==0.2.85",
         "langchain",
         "langchain_community",
         "InstructorEmbedding==1.0.1",
@@ -17,10 +16,6 @@ setup(
         "pyarrow>=17.0",
         "torch>=2.0",
         "huggingface-hub==0.24.0",
-        "normalizer @ git+https://github.com/csebuetnlp/normalizer.git",
-    ],
-    dependency_links=[
-        "https://abetlen.github.io/llama-cpp-python/whl/cu122#egg=llama-cpp-python"
     ],
     author="S M Nahid Hasan",
     description="A Bangla LLM evaluation framework",
