@@ -6,17 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "llm_bangla_evaluator"
 version = "0.1.0"
 description = "Bangla LLM Evaluation Framework"
-authors = [{ name = "S M Nahid Hasan", email = "smhasan.ruet.ece17@gmail.com" }]
+authors = [{ name="S M Nahid Hasan", email="smhasan.ruet.ece17@gmail.com" }]
 dependencies = [
     "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    "langchain",
-    "langchain_community",
-    "InstructorEmbedding==1.0.1",
-    "sentence-transformers==2.2.2",
-    "transformers>=4.20",
-    "datasets>=2.20",
-    "pyarrow>=17.0",
-    "torch>=2.0",
-    "huggingface-hub==0.24.0",
+    "numpy>=1.24.0"
 ]
